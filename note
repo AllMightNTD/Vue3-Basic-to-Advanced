@@ -1,0 +1,24 @@
+binding HTML : hiển thị dữ liệu thẻ HTML
+v-bind : liên kết(bind) giá trị của một thuộc tính (attribute) hoặc một đối tượng với một biểu thức Vue
+
+-   Dùng dấu (:) để thay cho v-bind
+
+-   Xử lý có điều kiện :
+    v-if
+    v-else
+    v-else-if
+    v-show
+
+-   Sự khác biệt giữa v-if và v-show là khi điều kiện sai thì v-show sẽ vẫn hiển thị thẻ HTML nhưng sẽ có thuộc tính ( display : none ) còn v-if là k hiển thị thẻ HTML trên F12 console
+-   Nếu điều kiện đúng => v-if sẽ gắn phần tử vào DOM , nếu điều kiện sai => Xóa khỏi DOM
+
+-   v-for:
+
+*   Arrays of Strings
+*   Arrays of Objects
+*   Arrays of Arrays
+*   Block of HTML elements
+*   Objects key value pairs
+*   Key : là một thuộc tính đặc biệt và chủ yếu được sử dụng làm gợi ý cho thuật toán DOM ảo để xác định ghi chú khi nhúng , key luôn có một giá trị duy nhất
+
+-   Method : Method trong Vue3 dùng để định nghĩa các hàm xử lý sự kiện : gọi đó là event Handling
